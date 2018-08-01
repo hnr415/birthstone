@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+}
+
+h1{
+ font-family: 'Amatic SC', cursive;
+ 
+}
+#gem{
+    font-size: 50px;
+}
+select {
+    min-width: 200px;
+    font-size: 15;
+}
+
+input {
+    background-color: #00cc99;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: left;
+    font-size: 5;
+   }  

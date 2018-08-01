@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Birthstone!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  </head>
+  <body>
+    <img src="img/image.png">
+    <h1>Shine Bright Like a Diamond!!!</h1>
+    <h1 id="gem"><%= @gem[0]%></h1>
+    <% for n in 1...@gem.length %>
+          <img src = "<%= @gem[n]%>" alt = "nil" height = "200">
+    <%end%>
+         <div class="footer">
+  <p>© Chris Asma/Nichole Fernandez/Hussain Raja</p>
+</div>
+  </body>
+</html>
+
+
